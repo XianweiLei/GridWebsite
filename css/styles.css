@@ -73,14 +73,12 @@ link to the exact top of the page.*/
 /*Add the selector and code to put a 2px black
 border around all elements in focus.*/
 .skip a:focus{
-  top: 10px;
-  /* border: 2px black; */
-
-}
-
-*:focus{
   border: 2px black;
+  /* border: 2px black; */
 }
+
+
+
 
 footer{
   background-color: black;
@@ -224,6 +222,11 @@ img{
     padding: 35px 0px;
     align-self: center;
   }
+  
+  .skip a:focus {
+    top: 20px;
+  }
+
 
    .about, .clients, .method-image, .contact-image {
     /*Your code here */
